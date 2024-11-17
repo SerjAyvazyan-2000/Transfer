@@ -1,0 +1,1124 @@
+.earning__fon{
+    background: #141E36;
+}
+.earning__bg{
+    background-image: url("../img/earning-fon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 790px;
+}
+.earning__tasks{
+    padding: 146px 0 114px;
+    position: relative;
+    z-index: 9;
+}
+.earning__tasks h1 {
+    max-width: 720px;
+    width: 100%;
+}
+.vacancies__main{
+    padding: 120px 0 140px;
+    background: #313A4E;
+}
+
+.vacancies__scr{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.vacancies__block{
+    max-width: 569px;
+    width: 100%;
+    margin-top: 24px;
+}
+.reviews-min-text-hrefs{
+    margin: 80px 0 40px;
+    max-width: 451px;
+    width: 100%;
+    padding: 8px;
+    background: #2D3547;
+    border-radius: 4px;
+}
+.reviews-min-text-hrefs ul li{
+    padding: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #D5DAE3;
+}
+.reviews-min-text-hrefs ul .active-href{
+    background: #4969B5;
+}
+.reviews-min-text-hrefs ul li:hover{
+    background: #313A4E;
+}
+.reviews-min-info{
+    padding: 16px;
+    max-width: 807px;
+    width: 100%;
+    background: #2D3547;
+    border-radius: 8px;
+}
+.vacancies__tit{
+    padding: 24px;
+}
+.vacancies__tit h3{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #A5BEF7;
+}
+.vacancies__fl{
+    margin-top: 24px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.vacancies__fl span{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #E8EBF2;
+}
+.vacancies__fl strong{
+    font-family: 'Geometria';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #A5BEF7;
+    display: block;
+    margin-top: 8px;
+}
+.vacancies__text{
+    margin-top: 34px;
+    background: #313A4E;
+    border-radius: 4px;
+    padding: 24px;
+    width: 100%;
+    position: relative;
+}
+.vacancies__text:before{
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: 30px;
+    height: 20px;
+    background: #2D3547;
+    clip-path: polygon(100% 0, 0 0, 0 100%);
+}
+.vacancies__text:after{
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    width: 30px;
+    height: 20px;
+    background: #2D3547;
+    clip-path: polygon(100% 100%, 100% 0, 0 100%);
+}
+.vacancies__text strong{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FDFDFD;
+}
+.vacancies__text ul{
+    padding-left: 8px;
+    margin-top: 12px;
+    margin-bottom: 25px;
+}
+.vacancies__text ul:last-child{
+    margin-bottom: 0;
+}
+.vacancies__text ul li{
+    position: relative;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #E8EBF2;
+    margin-top: 9px;
+    padding-left: 26px;
+}
+.vacancies__text ul li:before{
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 7px;
+    height: 2px;
+    background: #A5BEF7;
+}
+.vacancies__block .button{
+    max-width: 451px;
+    width: 100%;
+}
+
+.benefits__fon{
+    background: #313A4E;
+}
+.benefits__main{
+    display: flex;
+    align-items: center;
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+.benefits__photo{
+    display: flex;
+    max-width: 882px;
+    width: 100%;
+}
+.benefits__photo img{
+    width: 100%;
+}
+.benefits__info {
+    margin-left: 90px;
+    max-width: 703px;
+    width: 100%;
+    margin-right: auto;
+    padding-right: 15px;
+}
+.benefits__info span{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #FDFDFD;
+    display: block;
+    margin-top: 24px;
+    max-width: 568px;
+    width: 100%;
+}
+.benefits__fl{
+    margin-top: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 1px;
+}
+.benefits__box{
+    width: 49.5%;
+    height: 158px;
+    background: #272E3E;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 23px 20px 23px 45px;
+}
+.benefits__box:nth-child(1){
+    background: #C43742;
+}
+.benefits__box:nth-child(5){
+    background: #1B2F70;
+}
+.bene-box-bo .benefits__box:nth-child(1){
+    background: #272E3E;
+
+}
+.bene-box-bo .benefits__box:nth-child(2){
+    background: #C43742;
+}
+.benefits__box:nth-child(1){
+    clip-path: polygon(7% 0, 100% 0, 100% 100%, 0 100%, 0 12%);
+}
+.benefits__box:nth-child(4) {
+    clip-path: polygon(100% 0, 100% 89%, 93% 100%, 0 100%, 0 0);
+}
+.benefits__box:nth-child(5) {
+    clip-path: polygon(100% 0, 100% 89%, 93% 100%, 0 100%, 0 0);
+}
+.benefits__box p{
+    font-size: 20px;
+    line-height: 25px;
+    max-width: 209px;
+    width: 100%;
+    margin: 0 auto;
+}
+.employ__fon{
+    background: #272E3E;
+    padding: 205px 0 120px;
+    clip-path: polygon(0 11%, 100% 0, 100% 100%, 0% 100%);
+    margin-top: -150px;
+}
+.employ__main{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.employ__info{
+    padding: 78px 40px 48px;
+    max-width: 688px;
+    width: 100%;
+    background: #1F2533;
+    margin-right: -95px;
+    position: relative;
+    z-index: 1;
+    clip-path: polygon(5% 0, 100% 0, 100% 100%, 0 100%, 0 6%);
+}
+
+.employ__info p{
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 24px;
+}
+
+.employ__photo{
+    max-width: 807px;
+    width: 100%;
+    margin-bottom: 88px;
+    position: relative;
+    clip-path: polygon(100% 0, 100% 94%, 94% 100%, 0 100%, 0 0);
+
+}
+.employ__photo img{
+    filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.16));
+    width: 100%;
+}
+
+.performers__fon{
+    background: #313A4E;
+    padding: 150px 0 120px;
+}
+.performers__cnt{
+    position: relative;
+    margin-top: 53px;
+}
+.performers__scr{
+    width: 100%;
+}
+.performers__scr .swiper-wrapper {
+    display: flex;
+}
+.performers__scr .swiper-slide {
+    height: auto;
+}
+.performers__box{
+    padding: 32px;
+    max-width: 451px;
+    width: 100%;
+    height: 100%;
+    background: #272E3E;
+    position: relative;
+}
+.performers__fl{
+    display: flex;
+    align-items: center;
+}
+.performers__user{
+    border-radius: 1px;
+    width: 64px;
+    height: 64px;
+    margin-right: 24px;
+}
+.performers__user img{
+    border-radius: 1px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.performers__name strong{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #A5BEF7;
+}
+.performers__name span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 4px;
+    color: rgba(253, 253, 253, 0.8);
+    display: block;
+}
+.performers__text{
+    margin-top: 28px;
+}
+.performers__text p{
+    margin-top: 12px;
+}
+.swiper-slide.swiper-slide-active .performers__box{
+    clip-path: polygon(5% 0, 100% 0, 100% 100%, 0 100%, 0 5%);
+}
+.swiper-slide.swiper-slide-next + .swiper-slide .performers__box{
+    clip-path: polygon(100% 0, 100% 95%, 95% 100%, 0 100%, 0 0);
+}
+
+.another-consult{
+    background-image: url('../img/const-fon2.png');
+}
+.another-consult .consult__photo {
+    margin-left: -86px;
+    margin-top: 93px;
+}
+.another-consult  .consult__info h2 {
+    max-width: 526px;
+    width: 100%;
+}
+
+.vacancies__name{
+    display: none;
+}
+
+.office__bg{
+    background-image: url("../img/fon785.png");
+}
+.treat-respect{
+    background: #272E3E;
+    padding: 120px 0 100px;
+}
+.treat-respect:before{
+    content: "";
+    position: absolute;
+    clip-path: polygon(0 63%, 100% 0, 100% 100%, 0% 100%);
+    background: #272E3E;
+    width: 100%;
+    height: 250px;
+    z-index: 99;
+    top: -185px;
+}
+.treat-respect__fl{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.treat-respect__fl:after{
+    content: "";
+    position: absolute;
+    bottom: -23px;
+    right: 231px;
+    max-width: 688px;
+    width: 100%;
+    height: 571px;
+    background: #1F2533;
+}
+.treat-respect__info{
+    max-width: 651px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.treat-respect__info h2{
+    margin-bottom: 32px;
+}
+.treat-respect__info p{
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 12px;
+}
+.treat-respect__cnt{
+    max-width: 688px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.treat-respect__video{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+.treat-respect__video>img{
+    width: 100%;
+}
+.treat__fl{
+    display: flex;
+    margin-top: 24px;
+    justify-content: space-between;
+    width: 100%;
+}
+.video__pl{
+    width: 64px;
+    height: 64px;
+    background: #C43742;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    padding-left: 3px;
+    z-index: 9;
+    transition: 0.3s;
+}
+.video__pl:hover{
+    width: 58px;
+    height: 58px;
+}
+.video__pl img{
+    width: 22px;
+    transition: 0.3s;
+
+}
+.video__pl:hover img{
+    width: 19px;
+
+}
+.treat__fl .video__pl{
+    width: 30px;
+    height: 30px;
+}
+.treat__fl .video__pl:hover{
+    width: 34px;
+    height: 34px;
+}
+.treat__fl .video__pl img{
+    width: 10px;
+}
+.treat__fl .treat-respect__video{
+    width: 49%;
+}
+.swiper-pagination{
+    display: none;
+}
+@media (max-width: 1700px){
+    .indi__photo {
+        max-width: 1000px;
+        width: 100%;
+    }
+    .office__bg .indi__photo {
+        max-width: 650px;
+        width: 100%;
+    }
+
+}
+@media (max-width: 1600px){
+    .benefits__info {
+        margin-left: 40px;
+        max-width: 670px;
+    }
+    .employ__fon {
+        margin-top: -120px;
+    }
+    .another-consult .consult__photo {
+        margin-left: 0;
+    }
+    .benefits__info span {
+        font-size: 20px;
+        line-height: 26px;
+        margin-top: 20px;
+    }
+    .treat-respect:before {
+        top: -163px;
+    }
+    .earning__bg {
+        min-height: 650px;
+    }
+}
+@media (max-width: 1399px){
+    .indi__photo {
+        max-width: 825px;
+    }
+    .earning__bg {
+        background-position: center;
+    }
+    .earning__tasks {
+        padding: 110px 0 100px;
+    }
+    .vacancies__block {
+        max-width: 510px;
+    }
+    .office__bg .indi__photo {
+        max-width: 670px;
+        width: 100%;
+    }
+    .benefits__box {
+        padding: 23px 16px 23px 30px;
+    }
+
+    .benefits__info span {
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 14px;
+    }
+    .treat-respect__fl:after {
+        bottom: 40px;
+        right: 142px;
+        max-width: 610px;
+        height: 480px;
+    }
+    .benefits__info {
+        max-width: 540px;
+    }
+    .earning__bg {
+        min-height: 550px;
+    }
+}
+@media (max-width: 1299px){
+    .vacancies__block {
+        max-width: 480px;
+    }
+    .vacancies__tit h3 {
+        font-size: 26px;
+        line-height: 38px;
+    }
+    .vacancies__fl strong {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .vacancies__text {
+        margin-top: 14px;
+    }
+
+    .benefits__box {
+        padding: 23px 11px 23px 30px;
+    }
+    .vacancies__main {
+        padding: 120px 0 100px;
+    }
+    .benefits__info {
+        margin-left: 24px;
+    }
+    .benefits__fl {
+        margin-top: 35px;
+    }
+    .employ__fon {
+        margin-top: -100px;
+    }
+    .employ__info {
+        padding: 60px 20px 40px;
+        max-width: 560px;
+    }
+    .performers__box {
+        padding: 24px;
+    }
+    .performers__user {
+        margin-right: 12px;
+    }
+    .performers__name strong {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .performers__text p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .treat-respect:before {
+        top: -111px;
+        clip-path: polygon(0 44%, 100% 0, 100% 100%, 0% 100%);
+    }
+    .office__bg .indi__photo {
+        max-width: 600px;
+    }
+}
+@media (max-width: 1199px){
+    .earning__tasks {
+        padding: 80px 0 80px;
+    }
+    .indi__photo {
+        max-width: 657px;
+    }
+    .vacancies__main {
+        padding: 90px 0 90px;
+    }
+    .vacancies__block {
+        max-width: 410px;
+        margin-right: 24px;
+    }
+    .reviews-min-text-hrefs {
+        margin: 50px 0 40px;
+    }
+    .vacancies__tit h3 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .vacancies__fl span {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .vacancies__fl strong {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .vacancies__tit {
+        padding: 12px;
+    }
+    .vacancies__text {
+        padding: 12px;
+    }
+    .vacancies__text ul li {
+        font-size: 16px;
+        line-height: 20px;
+        padding-left: 22px;
+    }
+    .vacancies__text strong {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .vacancies__text ul {
+        margin-top: 10px;
+        margin-bottom: 14px;
+    }
+    .benefits__info {
+        margin-left: -130px;
+    }
+
+    .benefits__box {
+        padding: 20px 15px 20px 20px;
+        height: 140px;
+    }
+    .employ__info p {
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: 16px;
+    }
+    .employ__info {
+        max-width: 516px;
+    }
+    .treat-respect__fl {
+        position: relative;
+        flex-direction: column;
+        align-items: flex-start;
+        z-index: 989;
+    }
+    .treat-respect__cnt {
+        margin-top: 40px;
+    }
+    .treat-respect__fl:after{
+        display: none;
+    }
+    .treat-respect {
+        padding: 90px 0 70px;
+    }
+    .office__bg .indi__photo {
+        max-width: 500px;
+    }
+    .benefits__box p{
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+@media (max-width: 1020px){
+    .earning__tasks h1 {
+        max-width: 520px;
+    }
+    .indi__photo {
+        max-width: 610px;
+    }
+    .indi__photo img{
+        object-position: 90px;
+    }
+    .vacancies__scr {
+        flex-direction: column;
+        max-width: 760px;
+        width: 100%;
+    }
+    .vacancies__main {
+        padding: 86px 0 60px;
+    }
+    .reviews-min-text-hrefs {
+        margin: 24px 0 24px;
+    }
+    .vacancies__block .button{
+        display: none;
+    }
+    .reviews-min-info {
+        padding: 24px;
+        max-width: 100%;
+    }
+    .benefits__photo {
+        max-width: 782px;
+        margin-top: 32px;
+    }
+    .benefits__main {
+        padding-top: 96px;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .benefits__photo img {
+        object-position: 0 -80px;
+        object-fit: cover;
+        height: 800px;
+    }
+    .benefits__fl {
+        margin-top: 79px;
+        margin-left: auto;
+        max-width: 490px;
+        position: absolute;
+        right: 0;
+        padding: 0 16px;
+    }
+
+    .benefits__info {
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 100%;
+        z-index: 9;
+        padding: 0 15px;
+    }
+    .benefits__box {
+        height: 130px;
+        width: 250px;
+        margin-left: auto;
+        text-align: center;
+        background: rgba(39, 46, 62, 0.7);
+    }
+    .benefits__box:last-child{
+        position: absolute;
+        bottom: 0;
+        right: 267px;
+        clip-path: polygon(9% 0, 100% 0, 100% 100%, 0 100%, 0 12%);
+
+    }
+    .benefits__box:nth-child(1) {
+        clip-path: polygon(9% 0, 100% 0, 100% 100%, 0 100%, 0 12%);
+    }
+    .benefits__box:nth-child(4) {
+        clip-path: polygon(100% 0, 100% 89%, 90% 100%, 0 100%, 0 0);
+    }
+
+    .employ__main {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .employ__info {
+        max-width: 610px;
+        margin-right: 0;
+        margin-bottom: 40px;
+        background: unset;
+        padding: 0;
+    }
+    .employ__photo {
+        margin-bottom: 0;
+    }
+    .employ__fon {
+        padding: 180px 0 60px;
+        clip-path: polygon(0 8%, 100% 0, 100% 100%, 0% 100%);
+    }
+    .performers__cnt {
+        margin-top: 90px;
+    }
+    .performers__fon {
+        padding: 86px 0 60px;
+    }
+    .another-consult .consult__photo {
+        margin-left: -40px;
+        margin-top: 48px;
+    }
+    .reviews-min-text-hrefs{
+        display: none;
+        position: absolute;
+        z-index: 99;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+        border-radius: 2px;
+        margin: 2px 0 0;
+        padding: 0;
+    }
+    .vacancies__name{
+        display: block;
+        padding: 8px;
+        max-width: 100%;
+        width: 100%;
+        height: 42px;
+        background: #4969B5;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        color: #FDFDFD;
+    }
+    .vacancies__name:after {
+        content: "";
+        position: absolute;
+        top: 17px;
+        right: 17px;
+        width: 8px;
+        height: 8px;
+        border-top: 2px solid #FFFFFF;
+        border-right: 2px solid #FFFFFF;
+        transform: rotate(135deg);
+        transition: 0.3s;
+    }
+    .vacancies__ation .vacancies__name:after{
+        transform: rotate(-45deg);
+        top: 19px;
+
+    }
+    .benefits__main {
+        max-width: 800px;
+        width: 100%;
+        position: relative;
+    }
+    .reviews-min-info {
+        padding: 54px 24px 24px;
+        margin-top: 24px;
+    }
+    .vacancies__tit h3{
+        display: none;
+    }
+    .vacancies__cl{
+        position: relative;
+        width: 94%;
+        margin: 45px auto -86px;
+    }
+    .vacancies__ation .reviews-min-text-hrefs{
+        display: block;
+    }
+    .vacancies__block {
+        max-width: 100%;
+        margin-right: 0;
+    }
+    .reviews-min-text-hrefs ul li {
+        padding: 8px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .treat-respect__info p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .video__pl {
+        width: 52px;
+        height: 52px;
+    }
+    .video__pl img{
+        width: 18px;
+    }
+    .another-consult .consult__photo {
+        margin-left: 0;
+    }
+}
+@media (max-width: 760px){
+    .reviews-min-info {
+        padding: 50px 16px 24px;
+    }
+    .vacancies__main .container{
+        padding: 0;
+    }
+    .vacancies__block {
+        padding: 0 15px;
+    }
+    .vacancies__cl {
+        margin: 45px auto -86px;
+        width: 100%;
+    }
+    .performers__scr{
+        overflow-x: scroll;
+    }
+    .performers__scr::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
+    .performers__scr::-webkit-scrollbar-thumb {
+        width: 0;
+    }
+    .performers__slider{
+        width: 780px;
+    }
+    .employ__fon {
+        padding: 180px 0 60px;
+        clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
+        margin-top: -140px;
+    }
+
+    .treat__fl{
+        display: none;
+    }
+    .treat-respect__cnt .swiper-pagination{
+        display: flex;
+        align-items: center;
+        bottom: -30px;
+    }
+    .treat-respect__cnt .swiper-pagination-bullet {
+        width: 32%;
+        height: 4px;
+        display: inline-block;
+        border-radius: 1px;
+        background: #313A4E;
+        opacity: 1;
+    }
+    .treat-respect__cnt .swiper-pagination-bullet-active {
+        background: #A5BEF7;
+    }
+    .treat-respect__info p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 12px;
+    }
+    .office__bg .indi__photo {
+        max-width: 480px;
+        width: 100%;
+    }
+    .earning__bg {
+        min-height: auto;
+    }
+    .benefits__box p{
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+@media (max-width: 570px){
+    .vacancies__fl strong {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .vacancies__fl span {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .vacancies__name {
+        height: 42px;
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .vacancies__name:after {
+        top: 14px;
+        right: 12px;
+        width: 7px;
+        height: 7px;
+    }
+    .vacancies__main {
+        padding: 76px 0 0;
+    }
+    .vacancies__text ul li {
+        font-size: 14px;
+        line-height: 18px;
+        padding-left: 16px;
+        margin-top: 6px;
+    }
+    .vacancies__text strong {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .reviews-min-text-hrefs ul li {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .benefits__info span {
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 16px;
+    }
+    .benefits__box {
+        height: 110px;
+        width: 190px;
+        padding: 15px 10px 15px 15px
+    }
+    .benefits__fl {
+        max-width: 327px;
+    }
+    .benefits__box:last-child {
+        right: 207px;
+    }
+
+    .benefits__box p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .benefits__photo img {
+        object-position: 0 -52px;
+        height: 680px;
+    }
+    .employ__fon {
+        padding: 130px 0 60px;
+        margin-top: -130px;
+    }
+    .performers__slider {
+        width: 680px;
+    }
+    .performers__text p {
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: 300;
+    }
+    .performers__box {
+        padding: 16px;
+    }
+    .performers__name span {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .performers__name strong {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .performers__user {
+        width: 44px;
+        height: 44px;
+    }
+}
+@media (max-width: 480px){
+    .earning__bg {
+        background-image: unset;
+        position: relative;
+
+    }
+    .indi__photo img {
+        object-position: center;
+        width: 100%;
+    }
+    .earning__tasks {
+        position: unset;
+        padding: 48px 0 30px;
+    }
+    .earning__bg .button {
+        position: absolute;
+        bottom: 32px;
+        z-index: 99;
+    }
+    .benefits__box {
+        height: 97px;
+        width: 171px;
+        padding: 15px 15px 15px 15px;
+    }
+    .benefits__box:last-child {
+        right: 188px;
+    }
+    .benefits__box:nth-child(5):after {
+        background: #f4f4f4;
+    }
+    .employ__info p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .performers__slider {
+        width: 546px;
+    }
+    .performers__name strong {
+        font-size: 14px;
+    }
+    .performers__user {
+        width: 37px;
+        height: 37px;
+    }
+    .performers__text {
+        margin-top: 12px;
+    }
+    .benefits__photo img {
+        height: 630px;
+    }
+    .treat-respect:before {
+        top: -121px;
+        clip-path: polygon(0 27%, 100% 0, 100% 100%, 0% 100%);
+    }
+    .treat-respect {
+        padding: 60px 0 60px;
+    }
+    .video__pl {
+        width: 40px;
+        height: 40px;
+    }
+    .video__pl img{
+        width: 13px;
+    }
+}
+@media (max-width: 370px){
+    .vacancies__fl strong {
+        font-size: 14px;
+    }
+    .benefits__box {
+        height: 97px;
+        width: 148px;
+        padding: 15px 9px 15px 9px;
+    }
+    .benefits__box:last-child {
+        right: 165px;
+    }
+    .button {
+        max-width: 288px;
+    }
+}

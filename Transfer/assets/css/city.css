@@ -1,0 +1,141 @@
+.popular-routes-sec{
+    margin: 60px 0;
+}
+.popular-routes-sec h2{
+    text-align: center;
+}
+
+.popular-routes-tab{
+    margin-top: 40px;
+}
+.popular-routes-tab li:first-child{
+    background: #F7F7F9;
+    border-radius: 6px;
+    border-bottom: unset;
+}
+.popular-routes-tab li{
+    padding: 10px;
+    border-bottom: 1px solid #F0F2F2;
+}
+
+.popular-routes-tab li p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #2A2A31;
+}
+.popular-routes-tab li p + p{
+    min-width: 80px;
+}
+
+.popular-routes-href{
+    margin-top: 20px;
+}
+
+.popular-routes-href ul li{
+    width: 20%;
+}
+.popular-routes-href ul li a{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid transparent;
+    transition: 0.3s;
+    color: #2A2A31;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+.popular-routes-href ul li a:hover{
+    border: 1px solid #F0F2F2;
+    color: #A70C1E;
+
+}
+
+.destinations-berlin{
+    padding: 10px;
+    color: #B1B1B1;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    display: block;
+    margin-top: 5px;
+}
+
+
+.pickup-service-sec{
+    padding: 60px 0;
+    background: #F7F7F9;
+
+}
+.pickup-service-sec h2{
+    text-align: center;
+}
+
+.pickup-service-cnt{
+    margin-top: 40px;
+    gap: 20px;
+}
+.pickup-service-photo{
+    max-width: 340px;
+    width: 100%;
+}
+.pickup-service-photo img{
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.pickup-service-text{
+    max-width: 478px;
+    width: 100%;
+}
+.pickup-service-text p{
+    color: #2A2A31;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+
+}
+
+
+@media (max-width: 767px){
+    .popular-routes-sec {
+        margin: 30px 0 50px;
+    }
+    .popular-routes-tab li p + p {
+        min-width: auto;
+    }
+    .popular-routes-tab li p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .popular-routes-href ul li {
+        width: 33%;
+    }
+    .pickup-service-cnt {
+        flex-direction: column;
+    }
+    .pickup-service-photo {
+        max-width: 100%;
+    }
+    .pickup-service-text {
+        max-width: 100%;
+    }
+
+}
+@media (max-width: 575px){
+    .popular-routes-href ul li {
+        width: 50%;
+    }
+    .select-country-cnt {
+        margin-top: 20px;
+    }
+    .destinations-page {
+        padding-top: 40px;
+    }
+
+}

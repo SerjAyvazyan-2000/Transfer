@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+</head>
+<body>
+
+<header>
+    <div class="container-head">
+        <div class="G-align-center G-justify-between">
+            <div class="header-cnt G-align-center G-justify-between">
+                <div class="open-menu G-align-center">
+                    <i class="icon icon-menu"></i>
+                    <span>Menu</span>
+                </div>
+                <div class="menu-cnt">
+                    <ul class="G-flex-column">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li class="menu-href-mobile"><a href="#">Destinations</a></li>
+                        <li class="menu-href-mobile"><a href="#">FAQ</a></li>
+                        <li class="menu-href-mobile"><a href="#">Partners</a></li>
+                    </ul>
+                </div>
+                <div class="header-menu G-align-center">
+                    <a href="#" class="header-menu__link">Destinations</a>
+                    <a href="#" class="header-menu__link">FAQ</a>
+                    <a href="#" class="header-menu__link">Partners</a>
+                </div>
+            </div>
+            <div class="logo G-flex">
+                <img src="assets/img/logo.svg" alt="logo">
+            </div>
+            <div class="language-box G-justify-end">
+                <div class="language-cnt G-justify-end">
+                    <span class="language-click G-align-center"><img src="./assets/img/en.svg" alt="eng"><span>Eng</span></span>
+                    <div class="language-drop">
+                        <ul>
+                            <li class="G-align-center"><img src="./assets/img/ru.png" alt="eng"><span>Ru</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="banner-sec" style="background-image: url('./assets/img/city.jpg')">
+    <div class="container">
+        <div class="banner-main">
+            <div class="banner-title">
+                <h1>Transfers from airport </h1>
+                <h1><b>to Berlin</b> at best price</h1>
+            </div>
+            <div class="banner-cnt">
+                <div class="banner-href">
+                    <ul class="G-align-center G-justify-center">
+                        <li class="transfer G-center active-transfer">Transfer</li>
+                        <li class="by-hour G-center">By the hour</li>
+                    </ul>
+                </div>
+
+
+                <div class="banner-transfer banner-by-hour-active">
+                    <div class="banner-block G-align-end">
+                        <div class="transfer-inp">
+                            <span>Pick up</span>
+                            <label>
+                                <input type="text" placeholder="From: address, airport, hotel...">
+                            </label>
+                        </div>
+                        <div class="transfer-inp">
+                            <span>Drop</span>
+                            <label>
+                                <input type="text" placeholder="To: address, airport, hotel...">
+                            </label>
+                        </div>
+                        <div class="transfer-inp calendar-datepicker">
+                            <span>Date</span>
+                            <label>
+                                <input type="text" placeholder="2024-10-15" id="datepicker" class="date"
+                                       readonly="readonly">
+                            </label>
+                        </div>
+                        <div class="transfer-data G-align-end">
+                            <div class="transfer-inp">
+                                <span>Hours</span>
+                                <label>
+                                    <input type="number" placeholder="10">
+                                </label>
+                            </div>
+                            <div class="transfer-inp">
+                                <span>Minute</span>
+                                <label>
+                                    <input type="number" placeholder="00">
+                                </label>
+                            </div>
+                        </div>
+                        <button class="btn-red G-center">Show price</button>
+                    </div>
+                </div>
+                <div class="banner-by-hour">
+                    <div class="banner-block G-align-end">
+                        <div class="transfer-inp">
+                            <span>Pick up</span>
+                            <label>
+                                <input type="text" placeholder="From: address, airport, hotel...">
+                            </label>
+                        </div>
+                        <div class="transfer-inp">
+                            <span>Duration (in hours)</span>
+                            <label>
+                                <input type="text" placeholder="To: address, airport, hotel...">
+                            </label>
+                        </div>
+                        <div class="transfer-inp calendar-datepicker">
+                            <span>Date</span>
+                            <label>
+                                <input type="text" placeholder="2024-10-15" id="datepicker" class="date"
+                                       readonly="readonly">
+                            </label>
+                        </div>
+                        <div class="transfer-data G-align-end">
+                            <div class="transfer-inp">
+                                <span>Hours</span>
+                                <label>
+                                    <input type="number" placeholder="10">
+                                </label>
+                            </div>
+                            <div class="transfer-inp">
+                                <span>Minute</span>
+                                <label>
+                                    <input type="number" placeholder="00">
+                                </label>
+                            </div>
+                        </div>
+                        <button class="btn-red G-center">Show price</button>
+                    </div>
+                </div>
+                <button data-val="modal-request" class="open_modal requst-price G-center"><span>Requst price</span>
+                </button>
+
+                <a href="tel:+39 (333) 294-12-51" target="_blank" class="whatsapp-glob G-center">
+                    <img src="./assets/img/whatsapp.svg" alt="whatsapp">
+                    <span>WhatsApp booking</span>
+                </a>
+
+
+            </div>
+        </div>
+    </div>
+</section>
+<section class="partners-sec">
+    <div class="container">
+        <div class="partners-cnt G-justify-center">
+            <div class="partners-box G-flex-column G-align-center">
+                <div class="partners-box-img G-align-center">
+                    <img src="./assets/img/google.svg" alt="google">
+                </div>
+                <ul class="reviews G-align-center">
+                    <li><i class="icon icon-star"></i></li>
+                    <li><i class="icon icon-star"></i></li>
+                    <li><i class="icon icon-star"></i></li>
+                    <li><i class="icon icon-star"></i></li>
+                    <li><i class="icon icon-star"></i></li>
+                </ul>
+                <span>24 400</span>
+            </div>
+            <div class="partners-box G-flex-column G-align-center">
+                <div class="partners-box-img G-align-center">
+                    <img src="./assets/img/trustpilot.svg" alt="trustpilot">
+                </div>
+                <ul class="reviews G-align-center">
+                    <li><i class="icon icon-star"></i></li>
+                    <li><i class="icon icon-star"></i></li>
+                    <li><i class="icon icon-star"></i></li>
+                    <li><i class="icon icon-star"></i></li>
+                    <li><i class="icon icon-star"></i></li>
+                </ul>
+                <span>24 400</span>
+            </div>
+            <div class="partners-box G-flex-column G-align-center">
+                <div class="partners-box-img G-align-center">
+                    <img src="./assets/img/tripAdvisor.svg" alt="tripAdvisor">
+                </div>
+                <ul class="reviews G-align-center">
+                    <li><i class="icon icon-star"></i></li>
+                    <li><i class="icon icon-star"></i></li>
+                    <li><i class="icon icon-star"></i></li>
+                    <li><i class="icon icon-star"></i></li>
+                    <li><i class="icon icon-star"></i></li>
+                </ul>
+                <span>24 400</span>
+            </div>
+            <div class="partners-box G-flex-column G-align-center">
+                <div class="partners-box-img G-align-center">
+                    <img src="./assets/img/viator.svg" alt="viator">
+                </div>
+                <ul class="reviews G-align-center">
+                    <li><i class="icon icon-star"></i></li>
+                    <li><i class="icon icon-star"></i></li>
+                    <li><i class="icon icon-star"></i></li>
+                    <li><i class="icon icon-star"></i></li>
+                    <li><i class="icon icon-star"></i></li>
+                </ul>
+                <span>24 400</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="popular-routes-sec">
+    <div class="container">
+        <h2>Popular routes</h2>
+        <div class="popular-routes-tab">
+            <ul>
+                <li class="G-justify-between G-justify-center">
+                    <p>Arrival adress</p>
+                    <p>Price</p>
+                </li>
+                <li class="G-justify-between G-justify-center">
+                    <p>Slubice</p>
+                    <p>167 €</p>
+                </li>
+                <li class="G-justify-between G-justify-center">
+                    <p>Cottbus</p>
+                    <p>205 €</p>
+                </li>
+                <li class="G-justify-between G-justify-center">
+                    <p>Posnan</p>
+                    <p>382 €</p>
+                </li>
+                <li class="G-justify-between G-justify-center">
+                    <p>Warnemunde Port (Cruise Terminal)</p>
+                    <p>344 €</p>
+                </li>
+                <li class="G-justify-between G-justify-center">
+                    <p>Port of Rostock</p>
+                    <p>345 €</p>
+                </li>
+                <li class="G-justify-between G-justify-center">
+                    <p>Standal</p>
+                    <p>223 €</p>
+                </li>
+                <li class="G-justify-between G-justify-center">
+                    <p>Berlin Brandenburg Airport BER</p>
+                    <p>63 €</p>
+                </li>
+                <li class="G-justify-between G-justify-center">
+                    <p>Dresden</p>
+                    <p>284 €</p>
+                </li>
+                <li class="G-justify-between G-justify-center">
+                    <p>Stralsund</p>
+                    <p>375 €</p>
+                </li>
+                <li class="G-justify-between G-justify-center">
+                    <p>Neustrelitz</p>
+                    <p>177 €</p>
+                </li>
+            </ul>
+        </div>
+        <div class="popular-routes-href">
+            <ul class="G-flex-wrap">
+                <li><a href="#">Karlovy Vary</a></li>
+                <li><a href="#">Prague</a></li>
+                <li><a href="#">Bremen</a></li>
+                <li><a href="#">Halle</a></li>
+                <li><a href="#">Hamburg</a></li>
+                <li><a href="#">Hanover</a></li>
+                <li><a href="#">Kiel</a></li>
+                <li><a href="#">Leipzig</a></li>
+                <li><a href="#">Lubeck</a></li>
+                <li><a href="#">Potsdam</a></li>
+                <li><a href="#">Rostock</a></li>
+                <li><a href="#">Madgeburg</a></li>
+            </ul>
+        </div>
+        <span class="destinations-berlin">All destinations from Berlin</span>
+    </div>
+</section>
+
+<section class="pickup-service-sec">
+    <div class="container">
+        <h2>Berlin Airport Pickup Service
+            and Private Transfers</h2>
+        <div class="pickup-service-cnt G-align-start">
+            <div class="pickup-service-photo G-flex">
+                <img src="./assets/img/berlin.jpg" alt="berlin">
+            </div>
+            <div class="pickup-service-text">
+                <p>
+                    Approximately 20 million passengers arrive at the Berlin Brandenburg Willy Brandt every year. Berlin Brandenburg a main airport
+                    opened since 2020. You can get to other cities in Germany from this very airport, e.g., Munich, Cologne, Frankfurt.
+                    Have a route from the Berlin BER Airport? This airport is considered to be the second international airport in the city,
+                    following BER. In particular, it is used for low-cost flights via Ryanair and EasyJet and can be easily reached by planes
+                    of flagship carriers. It is located only 22.7 km from downtown, and the total time to get there takes 45 minutes provided
+                    that there are no traffic jams.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="information-sec">
+    <div class="container">
+        <div class="information-cnt G-justify-between">
+            <div class="information-box G-flex-column">
+                <img src="./assets/img/cart.jpg" alt="cart">
+                <h4>Meet and greet</h4>
+                <p>
+                    Your Personal Chauffeur will meet You at the airport. 1 hour Free waiting is included.
+                </p>
+            </div>
+            <div class="information-box G-flex-column">
+                <img src="./assets/img/cart-2.jpg" alt="cart">
+                <h4 class="best-price-guarantee">Best price Guarantee</h4>
+                <p>
+                    Our flat rate pricing is always cheaper than any taxi provider. You Always pay Less.
+                </p>
+            </div>
+            <div class="information-box G-flex-column">
+                <img src="./assets/img/cart-3.jpg" alt="cart">
+                <h4>Wide range of Vehicles</h4>
+                <p>
+                    Choose suitable option between economy, business or minivan up to 16 pax.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="blog-sec">
+    <div class="container">
+        <h2>Blog</h2>
+    </div>
+
+    <div class="swiper blog-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="blog-box">
+                    <div class="blog-info">
+                        <img src="./assets/img/blog-1.jpg" alt="car">
+                        <div class="blog-text">
+                            <div class="blog-pad">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Consequat.
+                                </p>
+                                <a href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-title">
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="blog-box">
+                    <div class="blog-info">
+                        <img src="./assets/img/blog-2.jpg" alt="car">
+                        <div class="blog-text">
+                            <div class="blog-pad">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Consequat.
+                                </p>
+                                <a href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-title">
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="blog-box">
+                    <div class="blog-info">
+                        <img src="./assets/img/blog-3.jpg" alt="car">
+                        <div class="blog-text">
+                            <div class="blog-pad">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Consequat.
+                                </p>
+                                <a href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-title">
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="blog-box">
+                    <div class="blog-info">
+                        <img src="./assets/img/blog-4.jpg" alt="car">
+                        <div class="blog-text">
+                            <div class="blog-pad">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Consequat.
+                                </p>
+                                <a href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-title">
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="blog-box">
+                    <div class="blog-info">
+                        <img src="./assets/img/blog-2.jpg" alt="car">
+                        <div class="blog-text">
+                            <div class="blog-pad">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Consequat.
+                                </p>
+                                <a href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-title">
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="blog-box">
+                    <div class="blog-info">
+                        <img src="./assets/img/blog-3.jpg" alt="car">
+                        <div class="blog-text">
+                            <div class="blog-pad">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Consequat.
+                                </p>
+                                <a href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-title">
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="blog-box">
+                    <div class="blog-info">
+                        <img src="./assets/img/blog-4.jpg" alt="car">
+                        <div class="blog-text">
+                            <div class="blog-pad">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Consequat.
+                                </p>
+                                <a href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-title">
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="blog-mobile">
+        <div class="blog-box">
+            <div class="blog-info">
+                <img src="./assets/img/blog-1.jpg" alt="car">
+                <div class="blog-text">
+                    <div class="blog-pad">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Consequat.
+                        </p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-title">
+                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h4>
+            </div>
+        </div>
+        <div class="blog-box">
+            <div class="blog-info">
+                <img src="./assets/img/blog-2.jpg" alt="car">
+                <div class="blog-text">
+                    <div class="blog-pad">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Consequat.
+                        </p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-title">
+                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h4>
+            </div>
+        </div>
+        <div class="blog-box">
+            <div class="blog-info">
+                <img src="./assets/img/blog-3.jpg" alt="car">
+                <div class="blog-text">
+                    <div class="blog-pad">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Consequat.
+                        </p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-title">
+                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h4>
+            </div>
+        </div>
+        <div class="blog-box">
+            <div class="blog-info">
+                <img src="./assets/img/blog-4.jpg" alt="car">
+                <div class="blog-text">
+                    <div class="blog-pad">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Consequat.
+                        </p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-title">
+                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer-home">
+    <div class="container">
+        <div class="contact-cnt G-flex-column G-align-center">
+            <h3>Call us by phone or use messenger</h3>
+            <div class="contact-info G-align-center">
+                <div class="contact-soc G-align-center">
+                    <a href="#" target="_blank"><img src="./assets/img/telegram.svg" alt="telegram"></a>
+                    <a href="#" target="_blank"><img src="./assets/img/viber.svg" alt="viber"></a>
+                    <a href="#" target="_blank"><img src="./assets/img/whatsapp.svg" alt="whatsapp"></a>
+                </div>
+                <a href="tel:+39 (333) 294-12-51" class="contact-phone btn-red G-center"><i
+                        class="icon icon-call"></i><span>+39 (333) 294-12-51</span></a>
+            </div>
+        </div>
+
+        <div class="footer-main">
+            <div class="footer-cnt G-justify-between G-align-center">
+                <a href="#" class="logo G-flex"><img src="./assets/img/logo.svg" alt="logo"></a>
+                <a href="mailto:info@milantrasnfers.com" class="footer-mail">info@milantrasnfers.com</a>
+            </div>
+            <div class="footer-info G-justify-between G-align-center">
+                <p>
+                    <strong>#1</strong>
+                    Chauffeur Service Provider in Europe. Book your Private Transfer from Airport, Cruise Terminal, Ski
+                    Area or Sea Resort at Best Price. Economy, Business and Premium vihicles, Mini Cab, minivan or bus
+                    with certified driver.
+                </p>
+                <button class="btn-red G-center">Become a partner</button>
+            </div>
+            <div class="footer-item G-justify-between G-align-center">
+                <div class="download-app G-align-center">
+                    <a href="#" download="" class="G-center"><img src="./assets/img/apple.svg" alt="apple"></a>
+                    <a href="#" download="" class="G-center"><img src="./assets/img/google-play.svg" alt="google-play"></a>
+                </div>
+                <div class="privacy-policy G-align-center">
+                    <p>Milantransfers.com ©2024</p>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+<div id="modal-request" class="modal">
+    <div class="modal-content">
+        <div class="modal-request-price">
+            <div class="close"></div>
+            <h3>Request price</h3>
+            <div class="modal__inp">
+                <span>Full name</span>
+                <label>
+                    <input type="text">
+                </label>
+            </div>
+            <div class="modal__inp">
+                <span>Email</span>
+                <label>
+                    <input type="text">
+                </label>
+            </div>
+            <div class="modal__inp">
+                <span>Phone</span>
+                <label>
+                    <input type="text">
+                </label>
+            </div>
+            <div class="modal__inp">
+                <span>Message</span>
+                <label>
+                    <textarea placeholder="Optional"></textarea>
+                </label>
+            </div>
+
+            <button class="btn-red">Send</button>
+        </div>
+    </div>
+</div>
+
+
+<script src="assets/js/jquery-3.6.4.js"></script>
+<script src="assets/js/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="assets/js/jquery.formstyler.min.js"></script>
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+.destinations-page{
+    padding-top: 60px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.destinations-page h2{
+    text-align: center;
+}
+.select-country-cnt{
+    margin-top: 40px;
+}
+
+.select-country-box{
+    margin-top: 40px;
+    background: #F7F7F9;
+    border-radius: 6px;
+    padding-bottom: 10px;
+}
+.select-country-name{
+    background: #A70C1E;
+    padding: 10px 16px;
+    border-radius: 6px;
+
+}
+.select-country-name h4{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+
+}
+
+.select-country-tab{
+    padding: 10px 19px 0;
+}
+.select-country-tab ul li{
+    width: 25%;
+}
+.select-country-tab ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    color: #2A2A31;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 10px;
+    width: 100%;
+}
+.select-country-tab ul li a:hover{
+    color: #A70C1E;
+    border: 1px solid #F0F2F2;
+}
+
+.select-country-box  .destinations-berlin{
+    text-align: center;
+    margin: 0;
+}
+
+.company-fleet .select-car-title h4 {
+    margin-bottom: 6px;
+}
+.company-fleet .select-car-title>p{
+    margin-bottom: 20px;
+}
+.company-fleet .select-car-box>p{
+    margin-top: 20px;
+}
+.company-fleet .select-car-price {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .select-country-tab ul li {
+        width: 33%;
+    }
+}
+@media screen and (max-width: 575px) {
+    .select-country-tab ul li {
+        width: 50%;
+    }
+}

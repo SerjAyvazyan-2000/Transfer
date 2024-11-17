@@ -1,0 +1,674 @@
+.sec-glob-all{
+    margin-top: 60px;
+    padding-top: 60px;
+}
+
+.booking-info{
+    gap: 10px;
+}
+.booking-line-icon{
+    position: relative;
+    border-width: 2px 0px 2px 2px;
+    border-style: dashed;
+    border-color: #A70C1E;
+    width: 26px;
+    height: 53px;
+    border-radius: 8px 0 0 8px;
+}
+.booking-line-icon:before{
+    content: "";
+    position: absolute;
+    top: -5px;
+    right: 0;
+    width: 6px;
+    height: 6px;
+    border: 2px solid  #A70C1E;
+    border-radius: 50%;
+    background: #FFFFFF;
+}
+.booking-line-icon:after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+    width: 6px;
+    height: 6px;
+    border: 2px solid  #A70C1E;
+    border-radius: 50%;
+    background: #FFFFFF;
+}
+.booking-pickup-drop{
+    gap: 14px;
+    flex: 1;
+}
+.pickup-drop{
+    width: 100%;
+    border: 1px solid #F0F2F2;
+    background: #F7F7F9;
+    padding: 12px 14px;
+    border-radius: 6px;
+}
+.pickup-drop span, .booking-data span{
+    color: #2A2A31;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.71px;
+    text-align: left;
+}
+.pickup-drop p, .booking-data p{
+    color: #B1B1B1;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15.51px;
+    text-align: right;
+    white-space: nowrap;
+}
+.booking-data-time{
+    margin-top: 14px;
+    width: 100%;
+    gap: 14px;
+}
+.booking-data{
+    width: 100%;
+    background: #F7F7F9;
+    padding: 12px 14px;
+    border-radius: 6px;
+}
+
+.select-car-sec{
+    margin-top: 60px;
+
+}
+.select-car-main{
+    border-top: 1px solid #F0F2F2;
+    padding-top: 60px;
+}
+.select-car-main h2{
+    text-align: center;
+}
+.select-car-main h2 span{
+    color: #A70C1E;
+}
+.select-car-cnt{
+    margin-top: 40px;
+    gap: 10px;
+}
+.select-car-box{
+    width: calc(50% - 5px);
+    border: 2px solid #F0F2F2;
+    padding: 24px;
+    background: #F7F7F9;
+    border-radius: 4px;
+}
+.select-car-active{
+    border: 2px solid #A70C1E;
+}
+.not-active-car{
+    opacity: 0.40;
+}
+.select-car-info{
+    gap: 14px;
+}
+.select-car-title{
+    max-width: 176px;
+    width: 100%;
+}
+.select-car-title h4{
+    color: #2A2A31;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.select-car-name{
+    margin-top: 10px;
+    gap: 8px;
+}
+.icon-case,
+.icon-people{
+    background-color: #B1B1B1;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.select-car-name span{
+    color: #2A2A31;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+
+}
+.select-car-price{
+    margin-top: 24px;
+    gap: 10px;
+}
+.select-car-price span{
+    color: #2A2A31;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: center;
+
+}
+.select-car-photo{
+    max-width: 176px;
+    width: 100%;
+}
+.btn-white{
+    background: #FFFFFF;
+    border-radius: 6px;
+    padding: 12px 24px;
+    transition: 0.3s;
+    color: #2A2A31;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.71px;
+    text-align: center;
+}
+.btn-white:hover{
+    background: #F0F2F2;
+
+}
+
+.request-best-price span{
+    color: #B1B1B1;
+}
+.btn-cancel{
+    padding: 12px 24px;
+    border-radius: 6px;
+    background: #F7F7F9;
+    color: #2A2A31;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.71px;
+    text-align: center;
+    transition: 0.3s;
+}
+.btn-cancel:hover{
+    background: #FFFFFF;
+    color: #A70C1E;
+
+}
+.complete-sec{
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.complete-cnt{
+    border: 1px solid #F0F2F2;
+    padding: 16px;
+    gap: 24px;
+    background: #F7F7F9;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+.complete-select{
+    max-width: 183px;
+    width: 100%;
+}
+.complete-cnt span{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15.51px;
+    text-align: left;
+    color: #2A2A31;
+}
+.complete-select label{
+    display: flex;
+    width: 100%;
+    margin-top: 4px;
+}
+
+.complete-select .jq-selectbox{
+    width: 100%;
+    background: #ffffff;
+    border-radius: 6px;
+    position: relative;
+    transition: 0.3s;
+}
+.complete-select .jq-selectbox:hover{
+    background: #F0F2F2;
+
+}
+.complete-select .jq-selectbox:after{
+    content: "";
+    position: absolute;
+    top: 15px;
+    right: 18px;
+    width: 5px;
+    height: 5px;
+    border-color: #2A2A31;
+    border-style: solid;
+    border-width: 2px 2px 0 0;
+    transform: rotate(135deg);
+    transition: 0.3s;
+}
+.complete-select .jq-selectbox__select-text{
+    padding: 12px 14px;
+    color: #2A2A31;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15.51px;
+    text-align: left;
+}
+
+.jq-selectbox li {
+    min-height: 18px;
+    padding: 10px 16px;
+    transition: 0.3s;
+    color: #2A2A31;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 15.51px;
+    text-align: left;
+}
+.jq-selectbox li:hover {
+    background: #F0F2F2;
+    color: #2A2A31;
+}
+.jq-selectbox li.selected {
+    background: #F0F2F2;
+    color: #2A2A31;
+}
+
+
+.child-seat-cnt{
+     margin-top: 14px;
+    gap: 20px;
+ }
+
+.complete-radio {
+    display: flex;
+    position: relative;
+    padding-left: 20px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.complete-radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+}
+.complete-radio small{
+    color: #2A2A31;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+.radiobtn {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 14px;
+    width: 14px;
+    border: 1px solid #B1B1B1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.complete-radio input:checked ~ .radiobtn {
+    border: 1px solid #A70C1E;
+}
+.complete-radio .radiobtn:after {
+    content: "";
+    position: absolute;
+    display: none;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #A70C1E;
+}
+
+.complete-radio input:checked ~ .radiobtn:after {
+    display: block;
+}
+
+.complete-form{
+    border: 1px solid #F0F2F2;
+    background: #F7F7F9;
+    padding: 16px;
+    gap: 24px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.input-form{
+    width: calc(33.333333% - 24px);
+}
+.input-form-max{
+    width: 100%;
+}
+.input-form>span{
+    color: #2A2A31;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15.51px;
+    text-align: left;
+    display: block;
+    margin-bottom: 4px;
+}
+.input-form>span b{
+    color: #A70C1E;
+}
+
+.sel-name-type{
+    margin-right: 4px;
+}
+.sel-name-type span{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2A2A31;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15.51px;
+    text-align: center;
+    background: #ffffff;
+}
+.type-mr{
+    border-right: 1px solid #F0F2F2;
+    border-radius: 6px 0 0 6px;
+}
+.type-ms{
+    border-left: 1px solid #F0F2F2;
+    border-radius: 0 6px 6px 0;
+}
+.sel-name-type .sel-name-type-active{
+    background: unset;
+    opacity: 0.40;
+    border-radius: 6px;
+    border: 1px solid #F0F2F2;
+}
+.input-form label{
+    display: flex;
+    width: 100%;
+}
+.input-form input, .input-form textarea{
+    font-family: 'SF Pro Display';
+    width: 100%;
+    background: #ffffff;
+    height: 40px;
+    border-radius: 6px;
+    padding: 5px 14px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15.51px;
+    text-align: left;
+    color: #2A2A31;
+    border: unset;
+}
+.input-form textarea{
+    height: 80px;
+    padding: 10px 14px;
+}
+
+
+.complete-transfer{
+    margin-top: 10px;
+    gap: 10px;
+}
+.complete-transfer .btn-red{
+    padding: 7px 24px;
+    height: 32px;
+    font-family: 'SF Pro Display';
+}
+.complete-transfer .select-car-title h4{
+    margin-bottom: 6px;
+
+}
+.select-car-box p{
+    color: #2A2A31;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+}
+.complete-transfer .select-car-info{
+    margin-bottom: 15px;
+}
+.complete-transfer .select-car-box p{
+    font-weight: 400;
+}
+.return-transfer-box{
+    border: 1px solid #F0F2F2;
+    background: #F7F7F9;
+    max-width: 414px;
+    width: 100%;
+    border-radius: 8px;
+    display: none;
+}
+.need-return-transfer{
+    background: #F7F7F9;
+    max-width: 414px;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.need-return-transfer:hover{
+    background: #F0F2F2;
+
+}
+.need-return-transfer span{
+    color: #2A2A31;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+
+}
+.need-return-transfer .transfer-plus{
+    font-size: 19px;
+
+}
+.need-return-transfer-none{
+    display: none;
+}
+.return-transfer-active{
+    display: block;
+}
+
+
+.return-transfer-title {
+    background: #A70C1E;
+    padding: 8px 16px;
+    border-radius: 8px 8px 0 0;
+}
+.return-transfer-title span{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+}
+.return-transfer-link{
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.51px;
+    text-align: right;
+    border-bottom: 1px solid #FFFFFF;
+}
+.return-transfer-wrap{
+    margin-top: 24px;
+    padding: 0 16px 16px;
+    gap: 16px;
+}
+.return-transfer-wrap .transfer-inp input{
+    background: #ffffff;
+}
+.return-transfer-wrap>.transfer-inp{
+    max-width: calc(50% - 8px);
+}
+.return-transfer-wrap .transfer-data{
+    max-width: calc(50% - 8px);
+}
+.payment-method-price{
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #F0F2F2;
+}
+.payment-method-price .child-seat-cnt {
+    margin-top: 0;
+}
+.payment-method-price strong{
+    color: #2A2A31;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.64px;
+    text-align: left;
+
+}
+.payment-method-cnt{
+    gap: 20px;
+}
+.payment-method-cnt .btn-red{
+    margin-left: 100px;
+}
+.payment-method-cnt h4{
+    color: #2A2A31;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+}
+
+.pay-confirm-sec{
+    padding-top: 60px;
+}
+.pay-confirm{
+    height: 600px;
+    gap: 20px;
+}
+.pay-confirm h3{
+    color: #2A2A31;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23.87px;
+    text-align: center;
+
+}
+.pay-confirm strong{
+    color: #2A2A31;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38.19px;
+    text-align: center;
+}
+.pay-confirm .btn-red{
+    margin-top: 20px;
+
+}
+
+.sec-marg-bot{
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+@media (max-width: 991px) {
+    .select-car-box {
+        padding: 24px 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    .input-form {
+        width: calc(50% - 12px);
+    }
+
+    .input-form-max {
+        width: 100%;
+    }
+    .complete-cnt {
+        gap: 16px;
+        flex-wrap: wrap;
+    }
+    .complete-select {
+        max-width: 48%;
+    }
+    .select-car-box {
+        padding: 24px 16px;
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .complete-transfer {
+        flex-direction: column;
+    }
+    .complete-transfer .select-car-box {
+        max-width: 100%;
+    }
+    .return-transfer-box {
+        max-width: 100%;
+    }
+    .need-return-transfer{
+        max-width: 100%;
+    }
+    .payment-method-price {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .payment-method-cnt {
+        gap: 10px;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .payment-method-cnt .btn-red {
+        margin-left: 0;
+        margin-top: 40px;
+        width: 100%;
+    }
+}
+@media (max-width: 575px) {
+    .input-form {
+        width: 100%;
+    }
+    .pickup-drop {
+        width: 100%;
+        padding: 10px 14px;
+        border-radius: 6px;
+        gap: 2px;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .booking-line-icon {
+        height: 73px;
+    }
+    .booking-data {
+        padding: 10px 14px;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .complete-select {
+        max-width: 100%;
+    }
+    .return-transfer-wrap>.transfer-inp {
+        max-width: 100%;
+    }
+    .return-transfer-wrap .transfer-data {
+        max-width: 100%;
+    }
+    .complete-sec {
+        margin-bottom: 80px;
+    }
+    .sec-marg-bot{
+        margin-bottom: 80px;
+    }
+}

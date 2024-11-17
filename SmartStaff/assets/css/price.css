@@ -1,0 +1,228 @@
+.serv-der{
+    background-image: url("../img/fon-pric.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0 90px;
+}
+.serv-der__fl{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+.serv-der__info{
+    max-width: 451px;
+    width: 100%;
+    margin-right: 24px;
+}
+.serv-der__block{
+    width: 100%;
+    background: #2D3547;
+    border-radius: 4px;
+}
+.serv-der__name{
+    display: none;
+}
+.serv-der__link{
+    max-width: 451px;
+    width: 100%;
+    padding: 8px;
+    background: #2D3547;
+    border-radius: 4px;
+}
+.serv-der__link ul li a{
+    padding: 16px;
+    transition: 0.3s;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #D5DAE3;
+    width: 100%;
+}
+.serv-der__link ul .serv-der__act a{
+    background: #4969B5;
+}
+.serv-der__link ul li:hover{
+    background: #313A4E;
+}
+.serv-der__info .button{
+    max-width: 451px;
+    width: 100%;
+    margin-top: 48px;
+}
+.serv-der__item{
+    padding: 16px;
+    max-width: 909px;
+    width: 100%;
+    background: #272E3E;
+    border-radius: 8px;
+}
+.serv-der__table{
+    background: #2D3547;
+    padding: 24px;
+    width: 100%;
+    position: relative;
+    clip-path: polygon(3% 0, 100% 0, 100% 97%, 97% 100%, 0 100%, 0 4%);
+}
+
+
+.serv-der__table thead tr td{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #A5BEF7;
+    padding: 11px 0;
+
+}
+.serv-der__table tbody tr td{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FDFDFD;
+    padding: 11px 10px 11px 0;
+}
+.serv-der__table  tr td:nth-child(2){
+    background: rgba(165, 190, 246, 0.2);
+    text-align: center;
+    padding: 11px 5px;
+
+}
+.serv-der__table  tr td:nth-child(3){
+    text-align: center;
+    padding: 11px 5px;
+
+
+}
+.app-fon-prices{
+    background: #272E3E;
+}
+@media (max-width: 1199px){
+    .serv-der__info {
+        max-width: 320px;
+        margin-right: 12px;
+    }
+    .serv-der__table tbody tr td {
+        font-size: 16px;
+        line-height: 23px;
+    }
+}
+@media (max-width: 1020px){
+    .serv-der__fl {
+        flex-direction: column;
+        background: #272E3E;
+        padding: 8px 8px 0;
+    }
+    .serv-der__info {
+        max-width: 100%;
+        margin-right: 0;
+    }
+    .serv-der__name{
+        display: block;
+        padding: 8px;
+        max-width: 100%;
+        width: 100%;
+        height: 42px;
+        background: #4969B5;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        color: #FDFDFD;
+        position: relative;
+    }
+    .serv-der__name:after {
+        content: "";
+        position: absolute;
+        top: 17px;
+        right: 17px;
+        width: 8px;
+        height: 8px;
+        border-top: 2px solid #FFFFFF;
+        border-right: 2px solid #FFFFFF;
+        transform: rotate(135deg);
+        transition: 0.3s;
+    }
+    .serv-der__ation .serv-der__name:after{
+        transform: rotate(-45deg);
+        top: 19px;
+    }
+
+    .serv-der__link{
+        display: none;
+        position: absolute;
+        z-index: 99;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+        border-radius: 2px;
+        margin: 2px 0 0;
+        padding: 0;
+    }
+    .serv-der__info .button {
+        margin-top: 0;
+        position: absolute;
+        bottom: 15px;
+    }
+    .serv-der {
+        padding: 90px 0 110px;
+    }
+    .serv-der__item {
+        padding: 16px;
+        max-width: 100%;
+    }
+    .serv-der__ation .serv-der__link{
+        display: block;
+    }
+}
+@media (max-width: 760px){
+    .serv-der .container{
+        padding: 0;
+    }
+
+    .serv-der__fl {
+        padding: 8px 1px 0;
+    }
+    .serv-der__block {
+        padding: 0 8px;
+    }
+    .serv-der__link ul li a {
+        padding: 12px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .serv-der__item {
+        padding: 16px 0;
+    }
+    .serv-der__table {
+        padding: 16px;
+    }
+    .serv-der__table thead tr td {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .serv-der__table tbody tr {
+        border-bottom: 1px solid rgba(165,190,247,0.2);
+    }
+    .serv-der__table tbody tr td {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .serv-der__title{
+        padding: 0 16px;
+    }
+    .serv-der__table tbody tr td {
+        vertical-align: middle;
+    }
+}
+@media (max-width: 570px){
+    .serv-der__info .button {
+        max-width: 342px;
+        margin: 0 16px;
+    }
+}
+@media (max-width: 370px){
+    .serv-der__info .button {
+        max-width: 290px;
+        margin: 0 16px;
+    }
+}

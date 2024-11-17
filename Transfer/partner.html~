@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+</head>
+<body>
+
+<header>
+    <div class="container-head">
+        <div class="G-justify-between">
+            <div class="header-cnt G-align-center G-justify-between">
+                <div class="open-menu G-align-center">
+                    <i class="icon icon-menu"></i>
+                    <span>Menu</span>
+                </div>
+                <div class="menu-cnt">
+                    <ul class="G-flex-column">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li class="menu-href-mobile"><a href="#">Destinations</a></li>
+                        <li class="menu-href-mobile"><a href="#">FAQ</a></li>
+                        <li class="menu-href-mobile"><a href="#">Partners</a></li>
+                    </ul>
+                </div>
+                <div class="header-menu G-align-center">
+                    <a href="#" class="header-menu__link">Destinations</a>
+                    <a href="#" class="header-menu__link">FAQ</a>
+                    <a href="#" class="header-menu__link">Partners</a>
+                </div>
+            </div>
+            <div class="logo G-flex">
+                <img src="assets/img/logo.svg" alt="logo">
+            </div>
+            <div class="language-box G-justify-end">
+                <div class="language-cnt G-justify-end">
+                    <span class="language-click G-align-center"><img src="./assets/img/en.svg" alt="eng"><span>Eng</span></span>
+                    <div class="language-drop">
+                        <ul>
+                            <li class="G-align-center"><img src="./assets/img/ru.png" alt="eng"><span>Ru</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<section class="sec-glob-all become-partner-sec">
+    <div class="container">
+        <h2>Become a <span>partner</span></h2>
+        <div class="become-partner-cnt">
+            <div class="complete-form G-flex-wrap">
+                <div class="input-form">
+                    <span>Country</span>
+                    <label>
+                        <input type="text">
+                    </label>
+                </div>
+                <div class="input-form">
+                    <span>City</span>
+                    <label>
+                        <input type="text">
+                    </label>
+                </div>
+                <div class="input-form">
+                    <span>Contact Name</span>
+                    <label>
+                        <input type="text">
+                    </label>
+                </div>
+                <div class="input-form">
+                    <span>Company Name</span>
+                    <label>
+                        <input type="text">
+                    </label>
+                </div>
+                <div class="input-form">
+                    <span>E-mail</span>
+                    <label>
+                        <input type="text">
+                    </label>
+                </div>
+                <div class="input-form">
+                    <span>Phone</span>
+                    <label>
+                        <input type="number" class="phone">
+                    </label>
+                </div>
+                <div class="input-form">
+                    <span>Website</span>
+                    <label>
+                        <input type="text">
+                    </label>
+                </div>
+            </div>
+            <div class="partner-checked-items G-flex-wrap">
+                <div class="checked-partner">
+                    <label>
+                        <small>Economy</small>
+                        <input type="checkbox" checked>
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="checked-partner">
+                    <label>
+                        <small>V-Class</small>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="checked-partner">
+                    <label>
+                        <small>Minivan Standard</small>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="checked-partner">
+                    <label>
+                        <small>Van 16</small>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="checked-partner">
+                    <label>
+                        <small>Bus 29-49</small>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="checked-partner">
+                    <label>
+                        <small>Bus 56+</small>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="checked-partner">
+                    <label>
+                        <small>E-Class</small>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="checked-partner">
+                    <label>
+                        <small>S-Class</small>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="checked-partner">
+                    <label>
+                        <small>Van 8</small>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="checked-partner">
+                    <label>
+                        <small>Bus 17-28</small>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="checked-partner">
+                    <label>
+                        <small>Bus 50-55</small>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+
+
+            </div>
+            <div class="upload-price-list">
+                <div class="fileUpload">
+                    <input type="file" class="upload"/>
+                    <span class="fileUpload-icon"><i class="icon icon-camera"></i></span>
+                    <span>Upload your price list for popular destinations</span>
+                </div>
+            </div>
+            <div class="become-partner-line G-justify-center">
+                <button class="btn-red G-center">Send</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="contact-cnt G-flex-column G-align-center">
+            <h3>Call us by phone or use messenger</h3>
+            <div class="contact-info G-align-center">
+                <div class="contact-soc G-align-center">
+                    <a href="#" target="_blank"><img src="./assets/img/telegram.svg" alt="telegram"></a>
+                    <a href="#" target="_blank"><img src="./assets/img/viber.svg" alt="viber"></a>
+                    <a href="#" target="_blank"><img src="./assets/img/whatsapp.svg" alt="whatsapp"></a>
+                </div>
+                <a href="tel:+39 (333) 294-12-51" class="contact-phone btn-red G-center"><i class="icon icon-call"></i><span>+39 (333) 294-12-51</span></a>
+            </div>
+        </div>
+
+        <div class="footer-main">
+            <div class="footer-cnt G-justify-between G-align-center">
+                <a href="#" class="logo G-flex"><img src="./assets/img/logo.svg" alt="logo"></a>
+                <a href="mailto:info@milantrasnfers.com" class="footer-mail">info@milantrasnfers.com</a>
+            </div>
+            <div class="footer-info G-justify-between G-align-center">
+                <p>
+                    <strong>#1</strong>
+                    Chauffeur Service Provider in Europe. Book your Private Transfer from Airport, Cruise Terminal, Ski Area or Sea Resort at Best Price. Economy, Business and Premium vihicles, Mini Cab, minivan or bus with certified driver.
+                </p>
+                <button class="btn-red G-center">Become a partner</button>
+            </div>
+            <div class="footer-item G-justify-between G-align-center">
+                <div class="download-app G-align-center">
+                    <a href="#" download="" class="G-center"><img src="./assets/img/apple.svg" alt="apple"></a>
+                    <a href="#" download="" class="G-center"><img src="./assets/img/google-play.svg" alt="google-play"></a>
+                </div>
+                <div class="privacy-policy G-align-center">
+                    <p>Milantransfers.com  ©2024</p>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+<script src="assets/js/jquery-3.6.4.js"></script>
+<script src="assets/js/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="assets/js/jquery.formstyler.min.js"></script>
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>
